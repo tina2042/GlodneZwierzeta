@@ -14,7 +14,7 @@ public:
 	Animal();
 	Animal(int x, int y);
 	Animal(int x, int y, char id, int move_value);
-	friend ostream& operator<<(ostream& os, Animal& anim);
+	friend ostream& operator<<(ostream& os, Animal& anim); //przeciezenie operatora do wypisania
 	
  ~Animal();
 	int GetX();
