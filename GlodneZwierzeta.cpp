@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 #include <algorithm>
 #include <vector>
-#include <stdlib.h>
 #include "Grass.h"
 #include "Functions.h"
 #include "Animal.h"
